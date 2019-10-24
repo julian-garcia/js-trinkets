@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Keyboard Drum Kit</title>
+  <link rel="stylesheet" href="drums.css">
+  <link href="https://fonts.googleapis.com/css?family=Marck+Script|Nunito:400,700&display=swap" rel="stylesheet">
+</head>
+<body class="stage">
+  <h1 class="stage__title">Keyboard Drum Kit</h1>
+  <div class="keys">
+    <div class="key" data-key="74">
+      <img class="key__image" src="images/hihat.svg" alt="">
+      <h2 class="key__title">j - Hihat</h2>
+    </div>
+    <div class="key" data-key="75">
+      <img class="key__image" src="images/hihat.svg" alt="">
+      <h2 class="key__title">k - Open hihat</h2>
+    </div>
+    <div class="key" data-key="72">
+      <img class="key__image" src="images/ride.svg" alt="">
+      <h2 class="key__title">h - Ride</h2>
+    </div>
+    <div class="key" data-key="71">
+      <img class="key__image" src="images/ride.svg" alt="">
+      <h2 class="key__title">g - Ride bell</h2>
+    </div>
+    <div class="key" data-key="73">
+      <img class="key__image" src="images/bass.svg" alt="">
+      <h2 class="key__title">i - Kick</h2>
+    </div>
+    <div class="key" data-key="83">
+      <img class="key__image" src="images/snare.png" alt="">
+      <h2 class="key__title">s - Snare</h2>
+    </div>
+    <div class="key" data-key="65">
+      <img class="key__image" src="images/snare.png" alt="">
+      <h2 class="key__title">a - Snare electro</h2>
+    </div>
+    <div class="key" data-key="90">
+      <img class="key__image" src="images/snare.png" alt="">
+      <h2 class="key__title">z - Snare off</h2>
+    </div>
+    <div class="key" data-key="68">
+      <img class="key__image" src="images/snare.png" alt="">
+      <h2 class="key__title">d - Cross</h2>
+    </div>
+    <div class="key" data-key="70">
+      <img class="key__image" src="images/snare.png" alt="">
+      <h2 class="key__title">f - Rim</h2>
+    </div>
+    <div class="key" data-key="81">
+      <img class="key__image" src="images/tom.svg" alt="">
+      <h2 class="key__title">q - Tom 1</h2>
+    </div>
+    <div class="key" data-key="87">
+      <img class="key__image" src="images/tom.svg" alt="">
+      <h2 class="key__title">w - Tom 2</h2>
+    </div>
+    <div class="key" data-key="69">
+      <img class="key__image" src="images/tom.svg" alt="">
+      <h2 class="key__title">e - Tom 3</h2>
+    </div>
+    <div class="key" data-key="80">
+      <img class="key__image" src="images/clap.svg" alt="">
+      <h2 class="key__title">p - Clap</h2>
+    </div>
+    <div class="key" data-key="86">
+      <img class="key__image" src="images/cabasa.svg" alt="">
+      <h2 class="key__title">v - Cabasa</h2>
+    </div>
+    <div class="key" data-key="66">
+      <img class="key__image" src="images/tambourine.svg" alt="">
+      <h2 class="key__title">b - Tambourine</h2>
+    </div>
+  </div>
+  <audio src="sounds/snare.mp3" data-key="83"></audio>
+  <audio src="sounds/cross.mp3" data-key="68"></audio>
+  <audio src="sounds/rim.mp3" data-key="70"></audio>
+  <audio src="sounds/hihat.mp3" data-key="74"></audio>
+  <audio src="sounds/ohihat.mp3" data-key="75"></audio>
+  <audio src="sounds/kick.mp3" data-key="73"></audio>
+  <audio src="sounds/tom1.mp3" data-key="69"></audio>
+  <audio src="sounds/tom2.mp3" data-key="87"></audio>
+  <audio src="sounds/tom3.mp3" data-key="81"></audio>
+  <audio src="sounds/clap.mp3" data-key="80"></audio>
+  <audio src="sounds/ride.mp3" data-key="72"></audio>
+  <audio src="sounds/ride-bell.mp3" data-key="71"></audio>
+  <audio src="sounds/snare-electro.mp3" data-key="65"></audio>
+  <audio src="sounds/snare-off.mp3" data-key="90"></audio>
+  <audio src="sounds/shaker.mp3" data-key="86"></audio>
+  <audio src="sounds/tamb.mp3" data-key="66"></audio>
+  <script src="drums.js"></script>
+</body>
+</html>
