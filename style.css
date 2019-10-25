@@ -1,0 +1,64 @@
+.trinkets {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  column-gap: 1rem;
+  row-gap: 1rem;
+}
+
+@media only screen and (min-width: 600px) {
+  .trinkets {
+    margin: 0 auto;
+    width: 80vw;
+  }
+}
+
+.trinket {
+  border: 3px solid black;
+  background: white;
+  text-align: center;
+  border-radius: 1rem;
+  padding: 1rem;
+}
+
+.trinket__image {
+  background-position: center top;
+  background-repeat: no-repeat;
+  box-shadow: inset 0px 0px 4px 4px rgba(255,255,255,1);
+  background-size: cover;
+  height: 300px;
+  margin: 0 auto;
+}
+
+.trinket__link {
+  font-family: 'Nunito', sans-serif;
+  font-size: 3rem;
+  text-align: center;
+  text-decoration: none;
+  color: black;
+}
+
+h1 {
+  font-family: 'Marck Script', cursive;
+  font-size: 5rem;
+  text-align: center;
+}
+
+body {
+  background: lightgray;
+}
+
+footer {
+  position: fixed;
+  width: 100vw;
+  bottom: 0;
+  text-align: center;
+}
+
+.footer__link {
+  font-family: 'Nunito', sans-serif;
+  font-size: 1.4rem;
+  text-decoration: none;
+  color: black;
+  margin: .5rem 0;
+  display: block;
+}
