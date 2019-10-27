@@ -15,5 +15,5 @@ Render the current time per second in analog clock form.
 [julian-garcia.github.io/js-trinkets/clock](https://julian-garcia.github.io/js-trinkets/clock)
 
 ## CSS variables & JS
-Alter DOM elements globally using CSS variables.
-[julian-garcia.github.io/js-trinkets/clock](https://julian-garcia.github.io/js-trinkets/adjust)
+Alter DOM element properties using CSS variables.
+[julian-garcia.github.io/js-trinkets/adjust](https://julian-garcia.github.io/js-trinkets/adjust)
