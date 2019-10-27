@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Adjust</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css?family=Marck+Script|Nunito:400,700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="container">
+    <h1>CSS variables & JS</h1>
+    <div class="image-container">
+      <div class="controls">
+        <label for="accent-colour">Accent Colour</label>
+        <input type="color" id="accent-colour" value="#ff0000">
+        <br>
+        <label for="border-width">Border Width</label>
+        <input type="range" id="border-width" value="3" max="9">
+        <span id="border-value"></span>
+        <br>
+        <label for="blur">Blur</label>
+        <input type="range" id="blur" value="0" max="5">
+      </div>
+      <img class="image" src="backdrop.jpg">
+      <h3 class="image__heading">An image</h3>
+    </div>
+  </div>
+  <script src="adjust.js"></script>
+</body>
+</html>

@@ -1,0 +1,36 @@
+:root {
+  --accent_colour: #ff0000;
+  --border_width: 3px;
+  --blur: 0px;
+}
+
+.image {
+  width: 100%;
+  border: var(--border_width) solid var(--accent_colour);
+  border-radius: 20px;
+  display: block;
+  box-sizing: border-box;
+  filter: blur(var(--blur));
+}
+
+.image-container {
+  width: 300px;
+  text-align: center;
+  margin: 1rem auto;
+}
+
+.image__heading {
+  color: var(--accent_colour);
+  font-family: 'Nunito', sans-serif;
+}
+
+label {
+  font-family: 'Nunito', sans-serif;
+}
+
+h1 {
+  font-family: 'Marck Script', cursive;
+  font-size: 5rem;
+  text-align: center;
+  color: var(--accent_colour);
+}
