@@ -17,3 +17,11 @@ Render the current time per second in analog clock form.
 ## CSS variables & JS
 Alter DOM element properties using CSS variables.
 [julian-garcia.github.io/js-trinkets/adjust](https://julian-garcia.github.io/js-trinkets/adjust)
+
+## Gallery
+Simple image gallery with event based style changes based on CSS flexbox
+[julian-garcia.github.io/js-trinkets/gallery](https://julian-garcia.github.io/js-trinkets/gallery)
+
+## Dog breeds
+Type ahead input using fetched API data
+[julian-garcia.github.io/js-trinkets/dogs](https://julian-garcia.github.io/js-trinkets/dogs)
